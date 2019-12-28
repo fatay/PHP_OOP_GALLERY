@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+table {
+    background: #012B39;
+    border-radius: 0.25em;
+    border-collapse: collapse;
+    margin: 1em;
+}
+th {
+    background:black;
+    border-bottom: 1px solid #364043;
+    color: #E2B842;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 1em 1em;
+    text-align: left;
+}
+td {
+    color: #fff;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 1em 1em;
+    text-align: left;
+}
+.disabled td {
+    color: #4F5F64;
+}
+tbody tr {
+    transition: background 0.25s ease;
+}
+tbody tr:hover {
+    background: #014055;
+}
+.pictures_link{
+    margin-top:6px;
+}
+.men{
+    margin-left:4px;
+    margin-right:4px;
+    color:#E2B842;
+}
+
+.men:hover{
+    color:cyan;
+    text-decoration: none;
+}
+
+.boxp{
+    border-radius: 4px;
+}
+
+.ispan{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.fase{
+    font-size:64px;
+}
+
+.w3-panel{
+    margin-left:2px !important;
+}
